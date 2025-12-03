@@ -70,7 +70,7 @@ A one-click high-quality portrait image enhancement workflow based on Z-Image-Tu
 
 | 原图 | 最终输出 `1920x1080` +`4步` + `dempp_2m_sde`+`sgm_uniform`|
 
-![Z-Image 一键增强](samples/result.png)
+![Z-Image 一键增强](samples/X-image.png)
 
 Star
 
