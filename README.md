@@ -1,7 +1,7 @@
 Z-Image 工作流（中文｜English）
 =
 
-一个专为“文生图”打造的一键式高质量人像图像工作流
+一个专为`文生图`打造的一键式高质量人像图像工作流
 A one-click high-quality portrait image enhancement workflow based on Z-Image-Turbo + SeedVR2 Upscaler.
 
 功能 | Features
@@ -66,11 +66,11 @@ A one-click high-quality portrait image enhancement workflow based on Z-Image-Tu
 
 工作流演示
 
-![image](https://github.com/zwchyt/ComFyui-workflows/blob/main/Z-image.png)
+![Z-Image 完整工作流](samples/Z-image.png)
 
 | 原图 | 最终输出 `1920x1080` +`4步` + `dempp_2m_sde`+`sgm_uniform`|
 
-![image](https://github.com/zwchyt/ComFyui-workflows/blob/main/z-image.png)
+![Z-Image 一键增强](samples/result.png)
 
 Star
 
