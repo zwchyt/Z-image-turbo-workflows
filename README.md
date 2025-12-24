@@ -58,7 +58,7 @@ A one-click high-quality portrait image enhancement workflow based on Z-Image-Tu
 ----
 
 - 初代步骤：仅 4-8 步（极快）
-- SeedVR2 分辨率：1080（可改 1440/4K，但显存会显著上升）
+- SeedVR2 分辨率：1024（可改 1440/4K，但显存会显著上升）
 - Batch Size：5（时间与显存平衡最佳）
 - Color Correction：Lab（最自然色彩）
 
@@ -71,9 +71,3 @@ A one-click high-quality portrait image enhancement workflow based on Z-Image-Tu
 | 原图 | 最终输出 `1920x1080` +`4步` + `dempp_2m_sde`+`sgm_uniform`|
 
 ![Z-Image 一键增强](samples/X-image.png)
-
-Star
-
-觉得好用请给仓库点个 Star ★，您的鼓励是我持续更新的最大动力！欢迎提交自己优化后的版本或生成的惊艳案例～
-最后更新：2025.12.03
-许可证：（模型版权归原作者所有，仅工作流开源）
