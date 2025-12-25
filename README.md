@@ -1,4 +1,4 @@
-一个Z-Image-Turbo`文生图`基本安装流程的工作流。
+Z-Image-Turbo`文生图`基本安装流程的工作流。
 =
 `所需模型流程`(请手动放入对应文件夹)
 
@@ -10,7 +10,9 @@
 
 安装插件节点
 =
-建议使用`git clone`命令安装，GitHub插件主页-Code-HTTPS复制-粘贴到你的comfyui文件目录-`ComfyUI\custom_nodes>git clone 插件HTTPS 回车`,在插件目录下安装插件所需依赖`pip install -r requirements.txt`(仔细查看插件依赖文件`requirements.txt`，避免安装破坏你的`comfyui环境`),使用ComfyUI-Manager 一键安装-打开 ComfyUI → Manager  → 搜索插件名 → Install → 重启 ComfyUI 即可。
+1.建议使用`git clone`命令安装，GitHub插件主页-Code-HTTPS复制-粘贴到你的comfyui文件目录-`ComfyUI\custom_nodes>git clone 插件HTTPS 回车`,在插件目录下安装插件所需依赖`pip install -r requirements.txt`(仔细查看插件依赖文件`requirements.txt`，避免安装破坏你的`comfyui环境`)。
+
+2.使用ComfyUI-Manager 一键安装-打开 ComfyUI → Manager  → 搜索插件名 → Install → 重启 ComfyUI 即可。
 
 |节点包名称| GitHub 仓库地址|主要作用|必装/可选|
 |--------|-----|------|-------|
@@ -29,6 +31,22 @@
 3. 双击画布搜索 `Load Image` 节点，上传你的人像原图(`反推图片所需`)
 4. 修改右侧提示词`或`直接使用自动反推的中文 Tag
 5. 生成图片结果自动保存在 `ComfyUI\output\`文件内
+
+推荐内容
+=
+加速推荐
+-
+[flash-attn2](https://github.com/mjun0812/flash-attention-prebuild-wheels/blob/main/docs/packages.md) `快速、内存高效的精确注意力机制，支持 I/O 感知`
+
+[sageattention2](https://github.com/woct0rdho/SageAttention) `高效的注意力机制，具有彻底的异常值平滑和线程级 INT4 量化功能`
+
+[spas_sage_attn](https://github.com/thu-ml/SpargeAttn) `一种无需训练的稀疏注意力机制，可加速任何模型推理`
+
+Lora推荐：
+-
+添加电影般的氛围和细节--[Midjourney Luneva Cinematic Lora](https://civitai.green/models/2185167/midjourney-luneva-cinematic-lora-and-workflow)
+
+添加逼真的赛博朋克风格服饰--[Luneva Cyber + HD Enhancer](https://civitai.green/models/2215818/luneva-cyber-hd)
 
 推荐参数（已预设，可自行微调）
 ----
