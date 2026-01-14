@@ -50,7 +50,7 @@ Lora推荐：
 
 [Luneva Cyber + HD Enhancer](https://civitai.green/models/2215818/luneva-cyber-hd) `添加逼真的赛博朋克风格服饰`
 
-图片细节插件推荐：
+图片细节和种子多样性插件推荐：
 -
 [ComfyUI-Detail-Daemon](https://github.com/Jonseed/ComfyUI-Detail-Daemon)
 
