@@ -34,19 +34,33 @@ Z-Image-Turbo`文生图`基本安装流程的工作流。
 
 推荐内容
 =
-加速推荐
+注意力机制加速wel推荐:
 -
-[flash-attn2](https://github.com/mjun0812/flash-attention-prebuild-wheels/blob/main/docs/packages.md) `快速、内存高效的精确注意力机制，支持 I/O 感知`
+[wel轮子集合](https://github.com/wildminder/AI-windows-whl) 
 
-[sageattention2](https://github.com/woct0rdho/SageAttention) `高效的注意力机制，具有彻底的异常值平滑和线程级 INT4 量化功能`
+[flash-attn2](https://huggingface.co/Wildminder/AI-windows-whl/tree/main) `快速、内存高效的精确注意力机制，支持 I/O 感知`
 
-[spas_sage_attn](https://github.com/thu-ml/SpargeAttn) `一种无需训练的稀疏注意力机制，可加速任何模型推理`
+[sageattention2](https://huggingface.co/Wildminder/AI-windows-whl/tree/main) `高效的注意力机制，具有彻底的异常值平滑和线程级 INT4 量化功能`
+
+[spas_sage_attn](https://github.com/woct0rdho/SpargeAttn/releases) `一种无需训练的稀疏注意力机制，可加速任何模型推理`
 
 Lora推荐：
 -
-添加电影般的氛围和细节--[Midjourney Luneva Cinematic Lora](https://civitai.green/models/2185167/midjourney-luneva-cinematic-lora-and-workflow)
+[Midjourney Luneva Cinematic Lora](https://civitai.green/models/2185167/midjourney-luneva-cinematic-lora-and-workflow) `添加电影般的氛围和细节`
 
-添加逼真的赛博朋克风格服饰--[Luneva Cyber + HD Enhancer](https://civitai.green/models/2215818/luneva-cyber-hd)
+[Luneva Cyber + HD Enhancer](https://civitai.green/models/2215818/luneva-cyber-hd) `添加逼真的赛博朋克风格服饰`
+
+图片细节插件推荐：
+-
+[ComfyUI-Detail-Daemon](https://github.com/Jonseed/ComfyUI-Detail-Daemon)
+
+[Capitan-ConditioningEnhancer](https://github.com/capitan01R/Capitan-ConditioningEnhancer)
+
+[SeedVarianceEnhancer](https://github.com/ChangeTheConstants/SeedVarianceEnhancer)
+
+缓存模型加速：
+-
+[comfyui-cache-dit](https://github.com/xlite-dev/comfyui-cache-dit)
 
 推荐参数（已预设，可自行微调）
 ----
